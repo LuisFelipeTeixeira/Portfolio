@@ -981,7 +981,7 @@ select {
 
 .cards {
     display: inline-block;
-    padding:  50px 100px;
+    padding:  50px 40px;
     border-radius: 20px;
     border: 1px rgba(211, 211, 211, 0.486) solid;
     margin: 10px;
