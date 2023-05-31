@@ -3,7 +3,7 @@
 @import url('<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">');
 @import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">');
 
-/* VARIAV…IS DE COR*/
+/* VARIAV√âIS DE COR*/
 :root {
     --color-blue: #19a3f7;
     --color-text: #504e70;
@@ -60,7 +60,7 @@ select {
     transition: all 0.3s ease;
 }
 
-    /*TransiÁ„o das p·ginas*/
+    /*Transi√ß√£o das p√°ginas*/
     .section.back-section {
         z-index: 1;
     }
@@ -153,7 +153,7 @@ select {
     padding-left: 15px;
 }
 
-/*configuraÁıes do meio da home*/
+/*configura√ß√µes do meio da home*/
 .container {
     max-width: 1100px;
     width: 100%;
@@ -184,7 +184,7 @@ select {
 .hidden {
     display: none !important;
 }
-/*fim-configuraÁıes do meio do home*/
+/*fim-configura√ß√µes do meio do home*/
 
 /*lateral*/
 .lateral {
@@ -376,7 +376,7 @@ select {
                 transition: all 0.3 easy;
             }
 
-                /*obs.: Usei a animaÁ„o no webkit tmb, porque ele È um Ìcone, */
+                /*obs.: Usei a anima√ß√£o no webkit tmb, porque ele √© um √≠cone, */
                 .home .intro .redes-sociais a:hover {
                     -webkit-transform: scale(1.1);
                     transform: scale(1.1);
@@ -532,7 +532,7 @@ select {
         padding-bottom: 30px;
     }
 
-        /*Para o ˙ltimo item n„o ficar com o espaÁo no final do card*/
+        /*Para o √∫ltimo item n√£o ficar com o espa√ßo no final do card*/
         .sobre .sobre-conteudo .timeline .timeline-item:last-child {
             padding-bottom: 0px;
         }
@@ -717,7 +717,7 @@ select {
             text-transform: capitalize;
         }
 
-/*P¡GINA DE CONTATO*/
+/*P√ÅGINA DE CONTATO*/
 
 .contact .contact-info-item {
     -ms-flex: 0 0 50%;
@@ -969,3 +969,84 @@ select {
         left: 220px;
     }
 }
+/*Card Profile*/
+.home {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.cards {
+    display: inline-block;
+    padding: 100px 150px;
+    border-radius: 20px;
+    border: 1px rgba(211, 211, 211, 0.486) solid;
+    margin: 10px;
+    transition: 0.6s;
+}
+
+    .cards:hover {
+        transition: 0.6s;
+        box-shadow: 5px 5px 20px lightgray;
+    }
+
+    .cards img {
+        transition: 0.2s;
+        width: 350px;
+        height: 330px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+
+    .cards:hover img {
+        transition: 0.2s;
+        outline: 3px solid grey;
+    }
+
+    .cards p {
+        color: grey;
+        font-size:larger;
+    }
+
+.social-media a i {
+    color: grey;
+    font-size: large;
+    transition: 0.5s;
+    padding: 5px 0;
+}
+
+    .social-media a i:hover {
+        transition: 0.5s;
+        transform: scale(2);
+    }
+
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+    footer a {
+        text-decoration: none;
+        color: grey;
+    }
