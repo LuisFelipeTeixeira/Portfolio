@@ -981,7 +981,7 @@ select {
 
 .cards {
     display: inline-block;
-    padding: 100px 150px;
+    padding:  50px 100px;
     border-radius: 20px;
     border: 1px rgba(211, 211, 211, 0.486) solid;
     margin: 10px;
@@ -995,8 +995,8 @@ select {
 
     .cards img {
         transition: 0.2s;
-        width: 350px;
-        height: 330px;
+        width: 250px;
+        height: 230px;
         border-radius: 50%;
         margin-bottom: 10px;
         padding: 2px;
