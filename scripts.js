@@ -1,5 +1,5 @@
 
-// Menu lateral com transiÁ„o para as p·ginas
+// Menu lateral com transi√ß√£o para as p√°ginas
 const nav = document.querySelector(".itens-menu"),
     navList = nav.querySelectorAll("li"),
     totalNavList = navList.length,
@@ -28,7 +28,7 @@ for (let i = 0; i < totalNavList; i++) {
         this.classList.add("active");
         showSection(this);
 
-        //Para quando selecionado um bot„o do menu lateral, o mini-menu feche automaticamente
+        //Para quando selecionado um bot√£o do menu lateral, o mini-menu feche automaticamente
         if (window.innerWidth < 1200) {
             lateralSectionBtn();
         }
@@ -62,3 +62,13 @@ function lateralSectionBtn() {
         allSection[i].classList.toggle("open");
     }
 }
+// Mudar titulo ao mudar de pagina
+
+let docTitle = document.title;
+window.addEventListener("blur", () => {
+    document.title = "Volta aqui poxa :(";
+});
+
+window.addEventListener("focus", () => {
+    document.title = docTitle;
+})
